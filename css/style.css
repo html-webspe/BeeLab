@@ -509,7 +509,7 @@ body {
     -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;
-    min-height: 650px; }
+    height: 723px; }
   .info-slider__title {
     font-family: 'Montserrat';
     font-weight: bold;
