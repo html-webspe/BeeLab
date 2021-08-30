@@ -38,7 +38,7 @@
       max-width: 555px;
       margin-left: -230px;
       border-radius: 10px 0px 10px 10px;
-      z-index: 1;
+      z-index: 5;
       display: flex;
       margin-right: 52px;
    }
@@ -117,6 +117,7 @@
    padding-top: 46px;
    padding-left: 81px;
    background: linear-gradient(90deg, #000000 7.97%, #2E2D2D 100%);
+   z-index: 5;
 }
 
 .contact {

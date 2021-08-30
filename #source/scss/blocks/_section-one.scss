@@ -28,6 +28,7 @@
 
    &__main {
       min-width: 0;
+      overflow: hidden;
    }
 
    &__slide {
@@ -108,7 +109,7 @@
    position: absolute;
    top: 160px;
    margin-left: -236px;
-
+   z-index: 6;
 
    &__slide-inner {
       padding: 73px 37px 39px 30px;
