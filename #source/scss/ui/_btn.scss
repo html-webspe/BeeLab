@@ -1,0 +1,31 @@
+//<BUTTONS>====================================================================================================
+.btn {
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   padding: 18px 74px;
+   background: #FFEE00;
+   border-radius: 10px;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Montserrat';
+   font-weight: bold;
+   font-size: 19px;
+   line-height: 15px;
+   color: #2E2D2D;
+   border: 1px solid #FFEE00;
+
+   &:hover {}
+
+   &.fw {
+      width: 100%;
+   }
+}
+
+.btn-transparent {
+   background-color: transparent;
+   border: 1px solid #fff;
+   color: #fff;
+}
+
+//</BUTTONS>====================================================================================================

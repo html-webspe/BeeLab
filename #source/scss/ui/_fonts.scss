@@ -1,0 +1,102 @@
+@font-face {
+   font-family: 'Montserrat';
+   src: url('../fonts/Montserrat-Regular.eot');
+   src: local('../fonts/Montserrat Regular'), local('Montserrat-Regular'),
+      url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+      url('../fonts/Montserrat-Regular.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Montserrat';
+   src: url('../fonts/Montserrat-Bold.eot');
+   src: local('../fonts/Montserrat Bold'), local('Montserrat-Bold'),
+      url('../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+      url('../fonts/Montserrat-Bold.woff') format('woff');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Montserrat';
+   src: url('../fonts/Montserrat-ExtraBold.woff2') format('woff2'),
+      url('../fonts/Montserrat-ExtraBold.woff') format('woff');
+   font-weight: 800;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Akrobat';
+   src: url('../fonts/Akrobat-Regular.woff2') format('woff2'),
+      url('../fonts/Akrobat-Regular.woff') format('woff');
+   font-weight: 400;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Akrobat';
+   src: url('../fonts/Akrobat-Extrabold.woff2') format('woff2'),
+      url('../fonts/Akrobat-Extrabold.woff') format('woff');
+   font-weight: 800;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Akrobat';
+   src: url('../fonts/Akrobat-Bold.woff2') format('woff2'),
+      url('../fonts/Akrobat-Bold.woff') format('woff');
+   font-weight: bold;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'icons';
+   src: url('../fonts/icons.eot?cvprwp');
+   src: url('../fonts/icons.eot?cvprwp#iefix') format('embedded-opentype'),
+      url('../fonts/icons.ttf?cvprwp') format('truetype'),
+      url('../fonts/icons.woff?cvprwp') format('woff'),
+      url('../fonts/icons.svg?cvprwp#icons') format('svg');
+   font-weight: normal;
+   font-style: normal;
+   font-display: block;
+}
+
+
+[class^="icon-"]::before,
+[class*=" icon-"]::before {
+   /* use !important to prevent issues with browser extensions that change fonts */
+   font-family: 'icons' !important;
+   speak: never;
+   font-style: normal;
+   font-weight: normal;
+   font-variant: normal;
+   text-transform: none;
+   line-height: 1;
+
+   /* Better Font Rendering =========== */
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-arrow-left:before {
+   content: "\e900";
+}
+
+.icon-arrow-right:before {
+   content: "\e901";
+}
+
+.icon-facebook:before {
+   content: "\e902";
+}
+
+.icon-instagram:before {
+   content: "\e903";
+}
