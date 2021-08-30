@@ -26,6 +26,7 @@
 
 .main-slider {
    overflow: hidden;
+   height: 100%;
 
    &__main {
       min-width: 0;
@@ -34,7 +35,6 @@
 
    &__slide {
       position: relative;
-      padding-bottom: 87%;
 
       img {
          position: absolute;
@@ -56,7 +56,7 @@
       position: absolute;
       z-index: 3;
       left: 320px;
-      bottom: 20px;
+      bottom: 90px;
    }
 
    &__fraction {

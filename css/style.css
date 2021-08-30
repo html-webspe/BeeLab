@@ -545,12 +545,12 @@ body {
     display: flex; }
 
 .main-slider {
-  overflow: hidden; }
+  overflow: hidden;
+  height: 100%; }
   .main-slider__main {
     min-width: 0; }
   .main-slider__slide {
-    position: relative;
-    padding-bottom: 87%; }
+    position: relative; }
     .main-slider__slide img {
       position: absolute;
       top: 0;
@@ -566,7 +566,7 @@ body {
     position: absolute;
     z-index: 3;
     left: 320px;
-    bottom: 20px; }
+    bottom: 90px; }
   .main-slider__fraction .swiper-pagination-current {
     font-family: 'Montserrat';
     font-weight: 800;

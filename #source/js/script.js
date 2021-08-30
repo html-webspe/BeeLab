@@ -9,7 +9,7 @@ $(".header-menu__link").click(function (e) {
 let swiper3 = new Swiper(".section-container", {
    slidesPerView: 1,
    mousewheel: {
-      sensitivity: 1,
+      sensitivity: 10,
    }
 });
 
