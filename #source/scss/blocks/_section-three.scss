@@ -1,0 +1,26 @@
+.section-three {
+   background-image: url(../img/contact-bg.png);
+
+   .main-block__info--inner {
+      padding-top: 49px;
+   }
+
+   .main-block__btn {
+      display: flex;
+
+      .btn {
+         padding: 34px 20px;
+         max-width: 336px;
+         width: 100%;
+         font-size: 24px;
+
+         &:first-child {
+            margin-right: 20px;
+         }
+      }
+   }
+
+   .section__title {
+      margin-bottom: 114px;
+   }
+}
