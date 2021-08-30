@@ -544,55 +544,50 @@ body {
     display: -ms-flexbox;
     display: flex; }
 
-.main-slider__main {
-  min-width: 0;
+.main-slider {
   overflow: hidden; }
-
-.main-slider__slide {
-  position: relative;
-  padding-bottom: 87%; }
-  .main-slider__slide img {
+  .main-slider__main {
+    min-width: 0; }
+  .main-slider__slide {
+    position: relative;
+    padding-bottom: 87%; }
+    .main-slider__slide img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+  .main-slider__head {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; }
-
-.main-slider__head {
-  position: absolute;
-  top: 161px;
-  left: 320px;
-  margin-top: -4px; }
-
-.main-slider__body {
-  position: absolute;
-  z-index: 3;
-  left: 320px;
-  bottom: 183px; }
-
-.main-slider__fraction .swiper-pagination-current {
-  font-family: 'Montserrat';
-  font-weight: 800;
-  font-size: 400px;
-  line-height: 1;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 1px #fff; }
-
-.main-slider__btn {
-  text-transform: uppercase;
-  padding: 34px 94px; }
-
-.main-slider__text {
-  font-family: 'Montserrat';
-  font-weight: normal;
-  font-size: 43.5px;
-  line-height: 1.2;
-  color: #fff;
-  max-width: 90%; }
+    top: 161px;
+    left: 320px;
+    margin-top: -4px; }
+  .main-slider__body {
+    position: absolute;
+    z-index: 3;
+    left: 320px;
+    bottom: 20px; }
+  .main-slider__fraction .swiper-pagination-current {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 400px;
+    line-height: 1;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff; }
+  .main-slider__btn {
+    text-transform: uppercase;
+    padding: 34px 94px; }
+  .main-slider__text {
+    font-family: 'Montserrat';
+    font-weight: normal;
+    font-size: 43.5px;
+    line-height: 1.2;
+    color: #fff;
+    max-width: 90%; }
 
 .controls-slider {
   position: absolute;
-  bottom: 183px;
+  bottom: 90px;
   right: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
